@@ -13,7 +13,7 @@
         "       encapsulation : ViewEncapsulation.None",
         "    })",
         "    @dataTransfer([\"${3:project}${2:name}\"])",
-        "    export class WM${4wm-:ComponentClass} extends BaseControlComponent implements OnInit {",
+        "    export class WM${4:ComponentClass} extends BaseControlComponent implements OnInit {",
         "       constructor (changeDetector : ChangeDetectorRef,render2 : Renderer2,elem : ElementRef,lengthConverter : LengthConverter) {",
         "          super(changeDetector,render2,elem,lengthConverter);",
         "       }",
