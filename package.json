@@ -13,7 +13,11 @@
         "snippets": [
             {
                 "language": "typescript",
-                "path": "./snippets/snippets.json"
+                "path": "./snippets/typescript.json"
+            },
+            {
+                "language": "html",
+                "path": "./snippets/html.json"
             }
         ]
     }
