@@ -3,9 +3,10 @@
       "prefix": "wm-window",
       "body": [
         "<div *ngIf=\"model\">",
-        "\t<wm-window [model]=\"${1:model}\" id=\"${2:id}\" class=\"${2:id}\">",
+        "\t<wm-window [model]=\"model\" id=\"${1:id}\" class=\"${1:id}\">",
         "\t\t<ng-template let-model>",
-            "\t\t\t<div class=\"${2:id}\">",
+            "\t\t\t<div class=\"${1:id}\">",
+            "\t\t\t$0",
             "\t\t\t</div>",
         "\t\t</ng-template>",
         "\t</wm-window>",
@@ -25,7 +26,7 @@
     },
     "Commandbutton": {
       "prefix": "wm-command-button",
-      "body": ["<wm-command-button id=\"${1:id}\" [model]=\"model.${1:id}\" class=\"${1:id}\"></wm-comand-button>"],
+      "body": ["<wm-command-button id=\"${1:id}\" [model]=\"model.${1:id}\" class=\"${1:id}\"></wm-command-button>"],
       "description": "PowerBuilder Angular Command Button"
     },
     "Groupbox": {
